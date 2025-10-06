@@ -1,0 +1,45 @@
+title: "8bit-V-Singh's Portfolio"
+description: "Blog, Coding Projects, CAD Designs, Internships"
+baseurl: "" # the subpath of your site, e.g. /blog
+url: "https://8bit-V-Singh.github.io" # your GitHub Pages URL
+
+theme: "minimal-mistakes-jekyll"
+
+# Social Links (customize as needed)
+author:
+  name: "8bit-V-Singh"
+  avatar: "/assets/images/bio-photo.jpg"
+  bio: "Coder | Designer | Intern | Futurist"
+  location: "Earth"
+  links:
+    - label: "GitHub"
+      icon: "fab fa-github"
+      url: "https://github.com/8bit-V-Singh"
+    - label: "Email"
+      icon: "fas fa-envelope"
+      url: "mailto:your-email@example.com"
+
+# Navigation
+nav:
+  - title: "Blog"
+    url: /blog/
+  - title: "Projects"
+    url: /projects/
+  - title: "CAD"
+    url: /cad/
+  - title: "Internships"
+    url: /internships/
+  - title: "About"
+    url: /about/
+
+# Plugins (GitHub Pages supported)
+plugins:
+  - jekyll-include-cache
+
+# Minimal Mistakes theme settings
+minimal_mistakes_skin: "dark" # Try "air", "dark", "contrast", etc.
+
+# Exclude these files from build
+exclude:
+  - Gemfile
+  - Gemfile.lock
