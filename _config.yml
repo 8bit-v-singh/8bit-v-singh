@@ -3,7 +3,7 @@ description: "Blog, Coding Projects, CAD Designs, Internships"
 baseurl: "" # the subpath of your site, e.g. /blog
 url: "https://8bit-V-Singh.github.io" # your GitHub Pages URL
 
-theme: "minimal-mistakes-jekyll"
+remote_theme: "mmistakes/minimal-mistakes"
 
 # Social Links (customize as needed)
 author:
